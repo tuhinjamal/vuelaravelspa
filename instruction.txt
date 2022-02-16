@@ -1,0 +1,10 @@
+install laravel
+composer require laravel/ui
+php artisan ui vue --auth
+php artisan migrate:fresh --seed
+npm install
+npm i vue-loader
+npm run dev
+php artisan make:seeder UserSeeder
+npm install vue-router
+npm i --save v-toaster
